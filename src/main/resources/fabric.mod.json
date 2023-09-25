@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "modloader",
+  "version": "${version}",
+  "name": "ModLoader",
+  "description": "Reimplementation of Risugami's Modloader for Better than Adventure!, which changes made as necessary.",
+  "authors": [
+    "Tomat"
+  ],
+  "contact": {
+    "homepage": "https://tomat.dev/",
+    "sources": "https://github.com/steviegt6/bta-modloader"
+  },
+  "license": "TBD",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+        "dev.tomat.modloader.ModLoaderMod"
+    ]
+  },
+  "mixins": [
+      "modloader.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": { },
+  "accessWidener": "modloader.accesswidener"
+}

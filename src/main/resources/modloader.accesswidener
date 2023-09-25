@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+# Sadly can't widen Fabric stuff.
+# accessible method net/fabricmc/loader/impl/FabricLoaderImpl addMod (Lnet/fabricmc/loader/impl/discovery/ModCandidate;)V
